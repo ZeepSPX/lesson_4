@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit_regular.woff2") format("woff2"), url("../fonts/larsseit_regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 900;
+}
+
+.text-samurai-history {
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+.title {
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+.samurai {
+	font-family: "Larsseit";
+	font-weight: 500;
+}
+
+.weapon {
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.busido {
+	font-family: "Larsseit";
+	font-weight: 400;
+}
+
+.future {
+	font-family: "Larsseit";
+	font-weight: 700;
+}
+
+a {
+	color: orange;
+}
+
+.link-first {
+	color: rgb(198, 30, 30);
+}
+
+.link-first {
+	color: coral;
+}
+
+a.link-second {
+	color: palevioletred;
+}
+
+div.text-first p {
+	color: rebeccapurple;
+}
+
+#text_second {
+	color: rgb(117, 15, 92);
+}
+
+.samurai,
+.weapon {
+	color: rgb(72, 0, 255);
+}
+
+.busido > p {
+	color: hotpink;
+}
+
+.busido ~ p {
+	color: chocolate;
+}
+
+.future .future-low {
+	color: indigo;
+}
+
+.end {
+	color: saddlebrown;
+}
+
+.end + p {
+	color: olive;
+}
